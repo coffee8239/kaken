@@ -1,0 +1,329 @@
+@chrset "utf-8";
+
+/*css document */
+
+body{
+  font: 14px/1.6 "Hiragino kaku Gothic Pro","メイリオ","MS Pゴシック","MS PGthic",Verdana,Arial,sans-serif;
+  margin:0;
+  background-color:rgba(25,25,25,0.2)
+}
+img{
+  outline:none:
+  border-style:none;
+}
+a{
+  color:blue;
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  transition:all 0.5s;
+
+}
+a:hover{
+  color:#f5a862;
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  transition:all 0.5s;
+}
+
+/*************  header   ***************/
+ul.topnav{
+  overflow:hidden;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  background-color:#1b2538;
+
+}
+header{
+  position:fixed;
+  width:100%;
+  top:0;
+  z-index:100;
+}
+ul.topnav li{
+  float:left;
+}
+ul.topnav li a{
+  display:block;
+  padding:14px 16px;
+  text-align:center;
+  text-decoration:none;
+  color:white;
+}
+ul.topnav li a:hover:not(.active){
+  background-color:#a9bce2;
+}
+ul.topnav li a.active{
+  background-color:#da9c41;
+}
+@media screen and (max-width:480px){
+  ul.topnav ul.topnav li{
+    float:none;
+  }
+}
+/*****************    main    ************************/
+.main-top{
+  background-image:url(../images/laptop-2557571_1920.jpg);
+  background-size:cover;
+  width:100%;
+  height:700px;
+  margin:0 auto;
+  text-align:right;
+}
+.main-top h1{
+  font-size:3.8rem;
+  color:black;
+  font-family:'IM Fell DW Pica SC',serif;
+  margin:0;
+  padding-top:100px;
+}
+/*******************   activities    *************************/
+.performance>a>img{
+  width:400px;
+  height:400px;
+  border-radius:50%;
+  float:left;
+  box-shadow:15px 15px 20px #666666;
+}
+.performance>p{
+  font-size:24px;
+  padding-top:30px;
+  text-align:center;
+}
+
+.right{
+  float:right;
+}
+
+.performance>img{
+  width:400px;
+  height:400px;
+  border-radius:50%;
+  box-shadow:15px 15px 20px #666666;
+  float:right;
+}
+.performance{
+  width:100%;
+  height:500px;
+}
+.activities>a{
+  padding:20px;
+  style:none;
+  background-color:green;
+  color:white;
+  text-decoration:none;
+}
+.activities>h2{
+  text-align:center;
+  font-size:2rem;
+  margin-bottom:10px;
+}
+hr{
+  clear:both;
+}
+/*********************    interviews      *********************/
+.interviews>a{
+  padding:20px;
+  style:none;
+  background-color:green;
+  color:white;
+  text-decoration:none;
+}
+.interviews>h2{
+  text-align:center;
+  font-size:2rem;
+  margin-bottom:10px;
+}
+hr{
+  clear:both;
+}
+/*********************   process   ***************/
+.process{
+  text-align:center;
+}
+.process>h2{
+  font-size:2rem;
+}
+.process>p{
+  font-size:24px;
+}
+.process>a{
+  padding:20px;
+  style:none;
+  background-color:green;
+  color:white;
+  text-decoration:none;
+}
+/********************  footer  *****************/
+footer>a{
+  style:none;
+  color:white;
+  font-size:4rem;
+  float:left;
+  text-decoration:none;
+}
+footer{
+  background-color:#1b2538;
+  color:white;
+  height:7rem;
+  clear:both;
+}
+footer>p{
+  text-align:center;
+  line-height:0.3rem;
+  padding-top:5px;
+}
+/************************ activity contents  **********************/
+.activity-top>h1{
+  color:skyblue;
+  opacity:0.7;
+  margin:0 auto;
+  padding-top:6rem;
+}
+.activity-title>h2{
+  text-align:center;
+  font-size:2rem;
+  text-decoration:underline;
+}
+.activity-top{
+  background-image:url(../images/startup-593341_1920.jpg);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin:0 auto;
+  font-size:4rem;
+  text-align:center;
+}
+/********************   content   ********************/
+.content-top>h1{
+  margin:0;
+  margin-top:3rem;
+}
+.one{
+  background-image:url(../images/DSC05789.JPG);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin:0 auto;
+  font-size:4rem;
+  text-align:center;
+  color:white;
+}
+.two{
+  background-image:url(../images/);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin:0 auto;
+  font-size:4rem;
+  text-align:center;
+  color:white;
+}
+
+/*******************   interviewss   *****************/
+.interviewss-top{
+  background-image:url(../images/IMG_1076.jpg);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin:0 auto;
+  font-size:4rem;
+  text-align:center;
+  color:white;
+}
+.interviewss-top>h1{
+  margin:0 auto;
+  padding-top:16rem;
+  opacity:0.7;
+  color:skyblue;
+}
+.interviewss>h2{
+  text-align:center;
+  font-size:2rem;
+  margin-bottom:10px;
+}
+/*****************    interview   ******************/
+.interview-top{
+  background-image:url(../images/flower-4339932_1920.jpg);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin:0 auto;
+  font-size:4rem;
+  text-align:center;
+}
+.interview-top>h1{
+  margin:0;
+  margin-top:3rem;
+}
+/**************     process   *******************/
+.process-top{
+  background-image:url(../images/IMG_1083.jpg);
+  background-size:cover;
+  width:100%;
+  height:550px;
+  margin:0 auto;
+  font-size:4rem;
+  text-align:center;
+}
+.process-top>h1{
+  margin:0;
+  margin-top:3rem;
+  color:skyblue;
+  opacity:0.7;
+  padding-top:16rem;
+}
+footer{
+  clear:both;
+}
+/*****************:   topBtn    **********************/
+#page-top{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  font-size:77%;
+}
+#page-top a{
+  background:#666;
+  text-decoration:none;
+  color:#fff;
+  width:100px;
+  padding:30px 0;
+  text-align:center;
+  display:block;
+  border-radius:5px;
+}
+#page-top a:hover{
+  text-decoration:none;
+  background:#999;
+}
+/****************************  video    ***********************/
+.wrap-video{
+  position:relative;
+}
+
+.wrap-video video{
+  width: 100%;
+  height:100%;
+}
+
+.wrap-video .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); /*上下左右中央寄せ*/
+  text-align:center;
+}
+
+.wrap-video .text p{
+  font-size:4rem;
+  font-weight:bold;
+  color:white;
+  opacity:0.6;
+  margin-top:7rem;
+}
+
+.wrap-video .text .headline{
+  font-size:2rem;
+}
